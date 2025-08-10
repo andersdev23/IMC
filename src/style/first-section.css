@@ -44,7 +44,7 @@ form{
     font-size: 23px;
     font-weight: 700;
     color: white;
-    background-color: rgba(0, 0, 0, 0.219);
+    background-color: transparent;
 
     display: flex;
     flex-direction: column;
@@ -53,6 +53,8 @@ form{
 }
 .titulo strong:nth-child(1){
     color: rgb(0, 132, 255);
+    background-color: transparent;
+    text-decoration: underline;
 }
 .section-inputs {
     display: flex;

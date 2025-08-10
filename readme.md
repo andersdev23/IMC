@@ -25,7 +25,7 @@ Este é um projeto simples de uma **calculadora de IMC** (Índice de Massa Corpo
 ## 📁 Estrutura de Arquivos
 
 ```
-projeto-imc/
+imc-web/
 │
 ├── index.html
 ├── reset.css
@@ -36,6 +36,11 @@ projeto-imc/
 │       └── responsividade.css
 ├── /js
 │   └── script.js
+├── /public
+     └── /img
+         ├── img-papel-parede.jpg
+
+
 ```
 
 ---
