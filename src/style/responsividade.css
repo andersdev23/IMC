@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+  
+    form{
+        padding: 5px;
+    }
+    .section-inputs input{
+        font-size: 15px;
+        width: 130px;
+    }
+    .imc-titulo{
+        font-size: 15px;
+    }
+    .subtitulo{
+        font-size: 15px;
+    }
+    table, td{
+        font-size: 9px;
+    }
+}

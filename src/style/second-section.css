@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Audiowide&family=Bitcount+Grid+Single:wght@100..900&family=Comic+Relief:wght@400;700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mrs+Saint+Delafield&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Inicio Seção de Resultado */
+
+.calculo-imc{
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 5px;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+
+}
+.calculo-imc p{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding: 5px;
+}
+/* Fim Seção de Resultado */
+
+/* Inicio da Table */
+.section-result{
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 10px;
+    padding: 10px;
+}
+.subtitulo{
+    background-color: rgba(0, 119, 255, 0.788);
+    color: rgba(255, 255, 255, 0.849);
+    padding: 1px;
+    border-radius: 10px;
+    font-weight: 900;
+    width: 90%;
+    margin: 20px auto;
+}
+.subtitulo p{
+    margin: 10px;
+}
+table{
+    background-color:  #d8e2dc0f;
+    padding: 5px;
+    width: 90%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+thead{
+    color: rgba(255, 255, 255, 0.83);
+    font-weight: 800;
+}
+th{
+    background-color: rgba(0, 0, 0, 0.699);
+    border-radius: 4px;
+}
+th, td {
+    border-bottom: 1px solid #0000001a;
+    padding: 3px;
+    text-align: left;
+    text-align: center;
+  }
+
+  tr:hover {
+    background-color: #f1f1f1;
+  }

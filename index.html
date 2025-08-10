@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="/src/style/first-section.css">
+    <link rel="stylesheet" href="/src/style/second-section.css">
+    <link rel="stylesheet" href="/src/style/responsividade.css">
+    <title>IMC - Indíce De Massa Corporal</title>
+</head>
+<body>
+
+    <div class="container">
+
+            <!---Primeira Div importante-->
+            <form>
+                <p class="titulo">
+                    <strong>IMC</strong>
+                    <strong>Indíce De Massa Corporal.</strong>
+                </p>
+    
+                <div class="section-inputs">
+                    <div class="input-container">
+                        <input class="input-peso" id="peso" type="number" required>
+                        <label for="peso">Peso (Kg)</label>
+                    </div>
+                    
+                    <div class="input-container">
+                        <input class="input-altura" id="altura" type="number" required>
+                        <label for="altura">Altura (M)</label>
+                    </div>
+                </div>
+                <div class="div-area-buttons">
+                    <button id="btn-calcular">Calcular</button>
+                    <button id="btn-clear">Limpar</button>
+                </div>
+                
+            </form>
+            <!---Segunda Div importante - Oculta - Conteudo da Div é ativada no script.js-->
+        <div class="calculo-imc"></div>   
+        <!---Terceira Div importante-->
+        <div class="section-result">
+
+            <div class="subtitulo">
+                <p>VEJA A INTERPRETAÇÃO DO IMC</p>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>IMC</th>
+                        <th>CLASSIFICAÇÃO</th>
+                        <th>OBESIDADE (GRAU)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="opcao01">
+                        <td>MENOR QUE 18,5</td>
+                        <td>MAGREZA</td>
+                        <td>0</td>
+                    </tr>
+                    <tr id="opcao02">
+                        <td>ENTRE 18,5 E 24,9</td>
+                        <td>NORMAL</td>
+                        <td>0</td>
+                    </tr>
+                    <tr id="opcao03">
+                        <td>ENTRE 25,0 E 29,9</td>
+                        <td>SOBREPESO</td>
+                        <td>I</td>
+                    </tr>
+                    <tr id="opcao04">
+                        <td>ENTRE 30,0 E 39,9</td>
+                        <td>OBESIDADE</td>
+                        <td>II</td>
+                    </tr>
+                    <tr id="opcao05">
+                        <td>MAIOR OU IGUAL A 40,0</td>
+                        <td>OBESIDADE GRAVE</td>
+                        <td>III</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>

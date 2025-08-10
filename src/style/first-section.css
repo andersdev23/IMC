@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Audiowide&family=Bitcount+Grid+Single:wght@100..900&family=Comic+Relief:wght@400;700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mrs+Saint+Delafield&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    background-image: url(/public/img/img-papel-parede.jpg);
+    background-position: center;
+    background-size:cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 15px 1px;
+    gap: 5px;
+    box-sizing: content-box;
+    backdrop-filter: blur(30px);
+    background-color: #22223b38;
+
+}
+form{
+    background-color: rgba(0, 0, 0, 0.432);
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    color: rgb(0, 0, 0);
+}
+.titulo{
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.219);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo strong:nth-child(1){
+    color: rgb(0, 132, 255);
+}
+.section-inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0px 5px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+}
+
+input {
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+    position: relative;
+    color: rgba(255, 255, 255, 0.849);
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:focus {
+    outline: none;
+    border-bottom: 3px solid rgb(0, 132, 255);
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    transform: translateY(-25px);
+    color: rgb(255, 255, 255);
+}
+.div-area-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    width: 90px;
+}
+#btn-calcular{
+    background-color: #3a86ff;
+}
+#btn-clear{
+    background-color: rgb(236, 123, 16);
+}
+button:hover{
+    color: rgba(255, 255, 255, 0.664);
+    transform: scale(1.03);
+}
