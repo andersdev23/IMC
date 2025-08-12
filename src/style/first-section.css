@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Audiowide&family=Bitcount+Grid+Single:wght@100..900&family=Comic+Relief:wght@400;700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mrs+Saint+Delafield&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
 body{
-    background-image: url(/public/img/img-papel-parede.jpg);
+    background: url(/public/img/img-papel-parede.jpg);
     background-position: center;
     background-size:cover;
     background-clip: border-box;
